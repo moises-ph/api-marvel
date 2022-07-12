@@ -1,0 +1,9 @@
+.max-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-container-left{
+    width: 15%;
+    margin: 0;
+}

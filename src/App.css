@@ -1,38 +1,77 @@
-.App {
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@300&family=Roboto:wght@300&family=Slabo+27px&display=swap');
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #efeff1;
+}
+
+.header{
+  color: #e8271a;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  background-color: #d3d3d8d9;
+}
+
+.header h1{
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@300&family=Roboto:wght@300&family=Slabo+27px&family=Work+Sans:wght@500&display=swap');
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.header h1:hover{
+  cursor: pointer;
+}
+
+.nav{
+  width: 50%;
+  color: #262c31;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav h3{
+  font-style: italic;
+  font-size: 1rem;
+  margin: 3%;
+}
+
+.nav h3:hover{
+  color: #e8271a;
+}
+
+.nav h3:hover{
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #d3d3d8d9;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.welcome{
+  color: #262c31;
+  font-size: 2rem;
+  font-weight: 300;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome h2{
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 3%;
 }
